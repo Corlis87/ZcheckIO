@@ -1,0 +1,80 @@
+nav:
+- Home: index.md
+- Projects:
+  - Content/Projects/index.md
+  - ZcheckIO:
+      - Intro: Content/Projects/ZcheckIO/intro.md
+      - Configurazione Plc: Content/Projects/ZcheckIO/PlcCommunication.md
+      - Creazione variabili: Content/Projects/ZcheckIO/CreateVariable.md
+      - Compilazione variabili: Content/Projects/ZcheckIO/CompileVariables.md
+      - Online: Content/Projects/ZcheckIO/Online.md
+      - Backup&Restore: Content/Projects/ZcheckIO/BackupRestore.md
+- About me: Content/About/index.md
+
+site_name: J.T. Projects
+theme:
+  name: material
+  highlightjs: true
+  font:
+    text: Noto Sans SC
+    code: Noto Sans SC
+  favicon: img/kiwi.ico
+  logo: img/kiwi.svg
+  language: it
+  features:
+    - header.autohide
+    - navigation.tabs
+    - navigation.indexes
+    - navigation.top
+    - navigation.tabs.sticky
+    - navigation.sections
+    - content.tabs.link
+    - search.share
+    - content.code.annotation
+    - content.code.copy
+    - content.action.view
+    - navigation.indexes
+    - navigation.prune
+
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: green
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark  
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true  
+plugins:
+   - glightbox:
+
+copyright: |
+  &copy; 2023 <a>Jorge Luis Torres Flores</a>
