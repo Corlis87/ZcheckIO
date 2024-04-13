@@ -50,8 +50,8 @@ theme:
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
-      accent: green
+      primary: teal
+      accent: teal
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
