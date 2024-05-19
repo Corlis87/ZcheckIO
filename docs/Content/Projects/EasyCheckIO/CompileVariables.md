@@ -2,7 +2,7 @@ icon:material/text-box-multiple
 
 # Compilazione variabili
 
-Dopo aver  [creato le variabili](../ZcheckIO/CreateVariable.md) in basso troverete il pulsante `compile` per lanciare la lista variabili nella sezione di compilazione.
+Dopo aver  [creato le variabili](../EasyCheckIO/CreateVariable.md) in basso troverete il pulsante `compile` per lanciare la lista variabili nella sezione di compilazione.
 
 ## Compilazione 
 
